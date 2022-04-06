@@ -6,10 +6,9 @@ public class Main {
         Warrior warrior = new Warrior();
         Magic magic = new Magic();
         Medic medic = new Medic();
-	HavingSuperAbility[] array = {warrior, magic, medic};
-        for (int i = 0; i < array.length; i++) {
-            array[i].applySuperAbility("CRITICAL ATTACK");
+        Hero[] heroes = {warrior,magic,medic};
+        for (int i = 0; i < heroes.length; i++) {
+            heroes[i].applySuperAbility("");
         }
-
     }
 }
